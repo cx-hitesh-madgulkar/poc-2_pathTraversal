@@ -1,0 +1,5 @@
+# ignore ast-cli folder
+ast-cli/
+
+# ignore malicious archive
+malicious.tar.gz
