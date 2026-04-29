@@ -7,7 +7,7 @@ $ go run cmd/poc_extract_vulnerable.go malicious.tar.gz
 [!! PWNED] /tmp/cx_pwn_traversal_test exists (mode=-rwxrwxrwx size=47)
 [!! PWNED] /tmp/cx_pwn_traversal_dir exists (mode=drwxr-xr-x size=4096)
 
-after fic 
+after fix
 
 $ go run cmd/poc_extract_fixed.go  malicious.tar.gz
 [+] Simulated WorkingDir: /tmp/cx-poc-workdir-2513101001
